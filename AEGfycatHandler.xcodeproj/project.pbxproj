@@ -13,7 +13,6 @@
 		753EC34E195DA39900BA35A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 753EC34C195DA39900BA35A2 /* InfoPlist.strings */; };
 		753EC350195DA39900BA35A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 753EC34F195DA39900BA35A2 /* main.m */; };
 		753EC354195DA39900BA35A2 /* AEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 753EC353195DA39900BA35A2 /* AEAppDelegate.m */; };
-		753EC357195DA39900BA35A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753EC355195DA39900BA35A2 /* Main.storyboard */; };
 		753EC35A195DA39900BA35A2 /* AEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753EC359195DA39900BA35A2 /* AEViewController.m */; };
 		753EC35C195DA39900BA35A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753EC35B195DA39900BA35A2 /* Images.xcassets */; };
 		753EC363195DA39900BA35A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753EC362195DA39900BA35A2 /* XCTest.framework */; };
@@ -21,6 +20,9 @@
 		753EC365195DA39900BA35A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753EC347195DA39900BA35A2 /* UIKit.framework */; };
 		753EC36D195DA39900BA35A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 753EC36B195DA39900BA35A2 /* InfoPlist.strings */; };
 		753EC36F195DA39900BA35A2 /* AEGfycatHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 753EC36E195DA39900BA35A2 /* AEGfycatHandlerTests.m */; };
+		753EC37A195DA43900BA35A2 /* AEGfycatHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 753EC379195DA43900BA35A2 /* AEGfycatHandler.m */; };
+		753EC37D195DAB3C00BA35A2 /* AEGfycatViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753EC37C195DAB3C00BA35A2 /* AEGfycatViewerController.m */; };
+		753EC380195DB5F300BA35A2 /* AEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753EC37F195DB5F300BA35A2 /* AEViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +46,6 @@
 		753EC351195DA39900BA35A2 /* AEGfycatHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AEGfycatHandler-Prefix.pch"; sourceTree = "<group>"; };
 		753EC352195DA39900BA35A2 /* AEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEAppDelegate.h; sourceTree = "<group>"; };
 		753EC353195DA39900BA35A2 /* AEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEAppDelegate.m; sourceTree = "<group>"; };
-		753EC356195DA39900BA35A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		753EC358195DA39900BA35A2 /* AEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEViewController.h; sourceTree = "<group>"; };
 		753EC359195DA39900BA35A2 /* AEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEViewController.m; sourceTree = "<group>"; };
 		753EC35B195DA39900BA35A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,11 @@
 		753EC36A195DA39900BA35A2 /* AEGfycatHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AEGfycatHandlerTests-Info.plist"; sourceTree = "<group>"; };
 		753EC36C195DA39900BA35A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		753EC36E195DA39900BA35A2 /* AEGfycatHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEGfycatHandlerTests.m; sourceTree = "<group>"; };
+		753EC378195DA43900BA35A2 /* AEGfycatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEGfycatHandler.h; sourceTree = "<group>"; };
+		753EC379195DA43900BA35A2 /* AEGfycatHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEGfycatHandler.m; sourceTree = "<group>"; };
+		753EC37B195DAB3C00BA35A2 /* AEGfycatViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEGfycatViewerController.h; sourceTree = "<group>"; };
+		753EC37C195DAB3C00BA35A2 /* AEGfycatViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEGfycatViewerController.m; sourceTree = "<group>"; };
+		753EC37F195DB5F300BA35A2 /* AEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +120,10 @@
 			children = (
 				753EC352195DA39900BA35A2 /* AEAppDelegate.h */,
 				753EC353195DA39900BA35A2 /* AEAppDelegate.m */,
-				753EC355195DA39900BA35A2 /* Main.storyboard */,
 				753EC358195DA39900BA35A2 /* AEViewController.h */,
 				753EC359195DA39900BA35A2 /* AEViewController.m */,
+				753EC37F195DB5F300BA35A2 /* AEViewController.xib */,
+				753EC37E195DAFB600BA35A2 /* AEGfycatHandler */,
 				753EC35B195DA39900BA35A2 /* Images.xcassets */,
 				753EC34A195DA39900BA35A2 /* Supporting Files */,
 			);
@@ -150,6 +157,17 @@
 				753EC36B195DA39900BA35A2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		753EC37E195DAFB600BA35A2 /* AEGfycatHandler */ = {
+			isa = PBXGroup;
+			children = (
+				753EC378195DA43900BA35A2 /* AEGfycatHandler.h */,
+				753EC379195DA43900BA35A2 /* AEGfycatHandler.m */,
+				753EC37B195DAB3C00BA35A2 /* AEGfycatViewerController.h */,
+				753EC37C195DAB3C00BA35A2 /* AEGfycatViewerController.m */,
+			);
+			name = AEGfycatHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753EC380195DB5F300BA35A2 /* AEViewController.xib in Resources */,
 				753EC35C195DA39900BA35A2 /* Images.xcassets in Resources */,
 				753EC34E195DA39900BA35A2 /* InfoPlist.strings in Resources */,
-				753EC357195DA39900BA35A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753EC37D195DAB3C00BA35A2 /* AEGfycatViewerController.m in Sources */,
 				753EC354195DA39900BA35A2 /* AEAppDelegate.m in Sources */,
 				753EC35A195DA39900BA35A2 /* AEViewController.m in Sources */,
+				753EC37A195DA43900BA35A2 /* AEGfycatHandler.m in Sources */,
 				753EC350195DA39900BA35A2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +301,6 @@
 				753EC34D195DA39900BA35A2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		753EC355195DA39900BA35A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				753EC356195DA39900BA35A2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		753EC36B195DA39900BA35A2 /* InfoPlist.strings */ = {
@@ -379,7 +391,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AEGfycatHandler/AEGfycatHandler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "AEGfycatHandler/AEGfycatHandler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,7 +406,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AEGfycatHandler/AEGfycatHandler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "AEGfycatHandler/AEGfycatHandler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +473,7 @@
 				753EC374195DA39900BA35A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		753EC375195DA39900BA35A2 /* Build configuration list for PBXNativeTarget "AEGfycatHandlerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +482,7 @@
 				753EC377195DA39900BA35A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

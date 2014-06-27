@@ -7,6 +7,7 @@
 //
 
 #import "AEViewController.h"
+#import "AEGfycatViewerController.h"
 
 @interface AEViewController ()
 
@@ -17,13 +18,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.title = @"AEGfycatHandler example";
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(IBAction)convertGIF:(id)sender {
+    [self.navigationController pushViewController:[[AEGfycatViewerController alloc] initWithGfyURL:[NSURL URLWithString:@"http://i.imgur.com/CG2EfIX.gif"]] animated:YES];
 }
+
+-(IBAction)lookUpGfy:(id)sender {
+    [self.navigationController pushViewController:[[AEGfycatViewerController alloc] initWithGfyURL:[NSURL URLWithString:@"http://gfycat.com/ScaryGrizzledComet"]] animated:YES];
+}
+
 
 @end
