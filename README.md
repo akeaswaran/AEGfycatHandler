@@ -9,6 +9,6 @@ Just drag and drop the AEGfycatHandler folder into your Xcode project and import
 
 ####License
 
-See License.md.
+See [License.md](https://github.com/akeaswaran/AEGfycatHandler/blob/master/License.md).
 
 
