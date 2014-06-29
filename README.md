@@ -1,5 +1,7 @@
 AEGfycatHandler
 ===============
+[![Version Status](http://img.shields.io/cocoapods/v/AEGfycatHandler.png)][docsLink] [![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
+
 
 An simple Objective-C wrapper for the [Gfycat API](http://gfycat.com/api). Built for use in my upcoming Reddit client, Crescent for iOS.
 
