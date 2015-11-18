@@ -6,13 +6,7 @@ AEGfycatHandler
 An simple Objective-C wrapper for the [Gfycat API](http://gfycat.com/api).
 
 ###Installation
-
-##Manual
-Just drag and drop the AEGfycatHandler folder into your Xcode project and import `AEGfycatViewerController.h` or `AEGfycatHandler.h` where needed.
-
-##CocoaPod
-Add the following line to your `Podfile` and run `pod install`:
-`pod 'AEGfycatHandler'`
+Just drag and drop the AEGfycatHandler folder into your Xcode project and import `AEGfycatViewerController.h` or `AEGfycatHandler.h` where needed. Alternatively, you can add `pod 'AEGfycatHandler'` to your Podfile and have Cocoapods import the files for you.
 
 If you are supporting iOS 9.0+, you will also need to add the following to your Info.plist file in order for AEGfycatHandler to work correctly.
 
@@ -36,11 +30,10 @@ If you are supporting iOS 9.0+, you will also need to add the following to your 
 </dict>
 ```
 
-
 ###Usage
 It is recommended to use `AEGfycatViewerController` or a custom subclass of it to handle all of your Gfycat needs, but if you want to use another custom view controller to handle Gfycat viewing, you can import `AEGfycatHandler.h` and call the methods you need.
 
-Refer to `AEGfycatViewerController.h` and `AEGfycatHandler.h` for information on how to use AEGfycatHandler.
+Refer to `AEGfycatViewerController.h` and `AEGfycatHandler.h` for more information on how to use AEGfycatHandler.
 
 ###License
 See [License.md](https://github.com/akeaswaran/AEGfycatHandler/blob/master/License.md).
