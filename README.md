@@ -6,7 +6,7 @@ AEGfycatHandler
 An simple Objective-C wrapper for the [Gfycat API](http://gfycat.com/api).
 
 ###Installation
-Just drag and drop the AEGfycatHandler folder into your Xcode project and import `AEGfycatViewerController.h` or `AEGfycatHandler.h` where needed. Alternatively, you can add `pod 'AEGfycatHandler'` to your Podfile and have Cocoapods import the files for you.
+Just drag and drop the AEGfycatHandler folder into your Xcode project and import `AEGfycatViewerController.h` or `AEGfycatHandler.h` where needed. Alternatively, you can add `pod 'AEGfycatHandler'` to your Podfile and have CocoaPods import the files for you.
 
 If you are supporting iOS 9.0+, you will also need to add the following to your Info.plist file in order for AEGfycatHandler to work correctly.
 
